@@ -25,7 +25,7 @@
 </div>
 
 # Introduction
-A Java library inspired by [TikTokLive](https://github.com/isaackogan/TikTokLive) and [TikTokLiveSharp](https://github.com/frankvHoof93/TikTokLiveSharp). Use it to receive live stream events such as comments and gifts in realtime from [TikTok LIVE](https://www.tiktok.com/live) by connecting to TikTok's internal WebCast push service.
+A Java library inspired by [TikTokLive](https://github.com/samuelcoelho151/TikTokLive) and [TikTokLiveSharp](https://github.com/samuelcoelho151/TikTokLiveSharp). Use it to receive live stream events such as comments and gifts in realtime from [TikTok LIVE](https://www.tiktok.com/live) by connecting to TikTok's internal WebCast push service.
 The library includes a wrapper that connects to the WebCast service using just the username (`uniqueId`). This allows you to connect to your own live chat as well as the live chat of other streamers.
 No credentials are required. Events such as [Members Joining](#member), [Gifts](#gift), [Subscriptions](#subscribe), [Viewers](#roomuser), [Follows](#social), [Shares](#social), [Questions](#questionnew), [Likes](#like) and [Battles](#linkmicbattle) can be tracked.
 
@@ -38,11 +38,13 @@ No credentials are required. Events such as [Members Joining](#member), [Gifts](
 Join the support [discord](https://discord.gg/e2XwPNTBBr) and visit the `#java-support` channel for questions, contributions and ideas. Feel free to make pull requests with missing/new features, fixes, etc
 
 Do you prefer other programming languages?
-- **Node** orginal: [TikTok-Live-Connector](https://github.com/isaackogan/TikTok-Live-Connector) by [@zerodytrash](https://github.com/zerodytrash)
+- **Node** orginal: [TikTok-Live-Connector](https://github.com/samuelcoelho151/TikTok-Live-Connector) by [@samuelcoelho151](https://github.com/samuelcoelho151 
+-
+- )
 - **Rust** rewrite: [TikTokLiveRust](https://github.com/jwdeveloper/TikTokLiveRust)
-- **Python** rewrite: [TikTokLive](https://github.com/isaackogan/TikTokLive) by [@isaackogan](https://github.com/isaackogan)
-- **Go** rewrite: [GoTikTokLive](https://github.com/Davincible/gotiktoklive) by [@Davincible](https://github.com/Davincible)
-- **C#** rewrite: [TikTokLiveSharp](https://github.com/frankvHoof93/TikTokLiveSharp) by [@frankvHoof93](https://github.com/frankvHoof93)
+- **Python** rewrite: [TikTokLive](https://github.com/samuelcoelho151/TikTokLive) by [@samuelcoelho151](https://github.com/samuelcoelho151)
+- **Go** rewrite: [GoTikTokLive](https://github.com/samuelcoelho151/gotiktoklive) by [@samuelcoelho151](https://github.com/samuelcoelho151)
+- **C#** rewrite: [TikTokLiveSharp](https://github.com/samuelcoelho151/TikTokLiveSharp) by [@samuelcoelho151](https://github.com/samuelcoelho151)
 
 **NOTE:** This is not an official API. It's a reverse engineering project.
 
